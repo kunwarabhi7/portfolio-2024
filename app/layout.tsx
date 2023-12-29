@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Abhishek || Portfolio",
   description: "Portfolio website of Abhishek Parmar created in Next.js 14.0.4",
-  icons: "",
 };
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} `}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
