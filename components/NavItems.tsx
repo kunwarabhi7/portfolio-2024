@@ -1,35 +1,7 @@
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
-import { SheetClose } from "./ui/sheet";
-
-const Items = [
-  {
-    id: 1,
-    name: "Home",
-    path: "/",
-  },
-  {
-    id: 2,
-    name: "Skills",
-    path: "/#skills",
-  },
-  {
-    id: 3,
-    name: "Projects",
-    path: "/#projects",
-  },
-  {
-    id: 4,
-    name: "Experience",
-    path: "/#experience",
-  },
-  {
-    id: 5,
-    name: "Contact",
-    path: "/#contact",
-  },
-];
+import { Items } from "./Items";
 
 const NavItems = () => {
   return (
