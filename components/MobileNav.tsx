@@ -1,32 +1,33 @@
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu, MenuSquareIcon } from "lucide-react";
+import { Menu } from "lucide-react";
+import NavItems from "./NavItems";
+import { Separator } from "@/components/ui/separator";
 
 export function MobileNav() {
   return (
-    <Sheet>
-      <SheetTrigger asChild>
-        <Button variant="outline">
-          <Menu />
-        </Button>
-      </SheetTrigger>
-      <SheetContent side={"left"}>
-        <SheetHeader>
-          <SheetTitle>My Portfolio</SheetTitle>
-          <SheetDescription>
-            Make changes to your profile here. Click save when you are done.
-          </SheetDescription>
-        </SheetHeader>
-      </SheetContent>
-    </Sheet>
+    <div className="md:hidden">
+      <Sheet>
+        <SheetTrigger asChild>
+          <Button variant="outline">
+            <Menu />
+          </Button>
+        </SheetTrigger>
+        <SheetContent side={"left"}>
+          <SheetHeader>
+            <SheetTitle>My Portfolio</SheetTitle>
+            <Separator />
+
+            <NavItems />
+          </SheetHeader>
+        </SheetContent>
+      </Sheet>
+    </div>
   );
 }
