@@ -7,13 +7,21 @@ import dropbox from "../app/public/assets/dropbox.png";
 import foodieapp from "../app/public/assets/foodie.jpg";
 import blog from "../app/public/assets/blog.jpg";
 import chat from "../app/public/assets/Chat.png";
-// import yt from '../app/public/assets/youtubeV2.png'
 import uber from "../app/public/assets/uber.png";
 import Todo from "../app/public/assets/Todo.png";
+import Spotify from '../app/public/assets/spotify.png'
 
 export const ProjectsList = [
   {
     id: 1,
+    title: "Mern Spotify App",
+    backgroundImg: Spotify,
+    skill: "Full Stack MERN Stack ",
+    source: "https://github.com/kunwarabhi7/mern-spotify.git",
+    projectUrl: "https://mern-spotify-wwzh.onrender.com/",
+  },
+  {
+    id: 2,
     title: "Dropbox CLONE",
     backgroundImg: dropbox,
     skill: "NEXT14 , Google FIREBASE,TailwindCSS ,ShadCn,ClerkAUTH ",
@@ -21,7 +29,7 @@ export const ProjectsList = [
     projectUrl: "https://dropboxclonee.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "NEXTJS BLOG",
     backgroundImg: cab,
     skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
@@ -29,7 +37,7 @@ export const ProjectsList = [
     projectUrl: "https://meabhishekblog.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "NEXTJS CHATAPP",
     backgroundImg: chat,
     skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
@@ -37,7 +45,7 @@ export const ProjectsList = [
     projectUrl: "http://abhimessage.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "ECommerce Website",
     backgroundImg: Shop,
     skill: "React.js , Google FIREBASE , CSS ",
@@ -45,7 +53,7 @@ export const ProjectsList = [
     projectUrl: "https://shop-devabhi7.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Random Quote Generator",
     backgroundImg: quote,
     skill: "HTML,CSS,JavaScript",
@@ -53,7 +61,7 @@ export const ProjectsList = [
     projectUrl: "https://abhiquotegenerator.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Video Search App",
     backgroundImg: video,
     skill: "React.js,YouTubeAPI",
@@ -61,7 +69,7 @@ export const ProjectsList = [
     projectUrl: "https://youtube-abhishek.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Image Search App",
     backgroundImg: image,
     skill: "React.js,unSplashAPI",
@@ -70,7 +78,7 @@ export const ProjectsList = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Restaurant App",
     backgroundImg: foodieapp,
     skill: "React.js, FIREBASE,CSS ",
@@ -78,7 +86,7 @@ export const ProjectsList = [
     projectUrl: "https://myfoodieapp.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Blog App",
     backgroundImg: blog,
     skill: "React.js, FIREBASE,CSS ",
@@ -86,7 +94,7 @@ export const ProjectsList = [
     projectUrl: "https://abhi7blog.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Uber Eats Clone",
     backgroundImg: uber,
     skill: "React.js, TailwindCSS ",
@@ -94,13 +102,21 @@ export const ProjectsList = [
     projectUrl: "https://ubereat.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Todo App",
     backgroundImg: Todo,
     skill: "NEXTJS, TailwindCSS,Google Firebase ",
     source: "https://github.com/kunwarabhi7/todoNextjs",
     projectUrl: "https://abhitodo.vercel.app/",
   },
+  {
+    id: 1,
+    title: "Mern Spotify App",
+    backgroundImg: image,
+    skill: "MERN Stack",
+    source: "https://github.com/kunwarabhi7/mern-spotify.git",
+    projectUrl: "https://mern-spotify-wwzh.onrender.com/",
+  }
   // {
   //     title: 'YouTube Clone App',
   //     backgroundImg: yt2,
