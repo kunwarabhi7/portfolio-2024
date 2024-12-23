@@ -47,46 +47,37 @@ const Experience = () => {
             <h3 className="verticial-timeline-element-title">
               JRS INNOVATION JAIPUR
             </h3>
-            <p>JOB AS IT INTERN</p>
+            <p>Front-End Intern</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             visible
             className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
             contentStyle={{ background: "#0a192f", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2019-2020"
+            date="2020-2023"
             iconStyle={{ background: "blue", color: "silver" }}
             icon={<MdWork />}
           >
             <h3 className="verticial-timeline-element-title">
-              TECHNOGLOBE JAIPUR
+              AGILENOVA TECHNOLOGY Pvt Ltd.
             </h3>
-            <p>JOB AS PYTHON INTERN</p>
+            <p>Front-End Developer</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             visible
             className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
             contentStyle={{ background: "#0a192f", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2021-2022"
+            date="2024-Present"
             iconStyle={{ background: "blue", color: "silver" }}
             icon={<MdWork />}
           >
-            <h3 className="verticial-timeline-element-title">Udemy</h3>
-            <p>Learning JavaScript</p>
+            <h3 className="verticial-timeline-element-title">
+              Credenc Web Technologies Pvt Ltd.
+            </h3>
+            <p>Full Stack Dev</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            visible
-            className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
-            contentStyle={{ background: "#0a192f", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2022-Present"
-            iconStyle={{ background: "blue", color: "silver" }}
-            icon={<MdWork />}
-          >
-            <h3 className="verticial-timeline-element-title">Upwork,Fiverr</h3>
-            <p>Freelance Web Devloper</p>
-          </VerticalTimelineElement>
+         
         </VerticalTimeline>
       </div>
     </div>
