@@ -40,21 +40,21 @@ const Experience = () => {
             className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
             contentStyle={{ background: "#0a192f", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2018-2019"
+            date="2016-2019"
             iconStyle={{ background: "blue", color: "silver" }}
             icon={<MdWork />}
           >
             <h3 className="verticial-timeline-element-title">
-              JRS INNOVATION JAIPUR
+              VAG TECHNOLOGIES PVT. LTD.
             </h3>
-            <p>Front-End Intern</p>
+            <p>Front End Developer</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             visible
             className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
             contentStyle={{ background: "#0a192f", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2020-2023"
+            date="2019-2022"
             iconStyle={{ background: "blue", color: "silver" }}
             icon={<MdWork />}
           >
@@ -68,7 +68,7 @@ const Experience = () => {
             className="verticial-timeline-element--education dark:bg-[#0a192f] bg-[#0a192f] dark:text-green-800"
             contentStyle={{ background: "#0a192f", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2024-Present"
+            date="2022-Present"
             iconStyle={{ background: "blue", color: "silver" }}
             icon={<MdWork />}
           >
@@ -77,7 +77,6 @@ const Experience = () => {
             </h3>
             <p>Full Stack Dev</p>
           </VerticalTimelineElement>
-         
         </VerticalTimeline>
       </div>
     </div>

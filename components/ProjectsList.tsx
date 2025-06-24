@@ -9,7 +9,8 @@ import blog from "../app/public/assets/blog.jpg";
 import chat from "../app/public/assets/Chat.png";
 import uber from "../app/public/assets/uber.png";
 import Todo from "../app/public/assets/Todo.png";
-import Spotify from '../app/public/assets/spotify.png'
+import Spotify from "../app/public/assets/spotify.png";
+import meet from "../app/public/assets/meet.png";
 
 export const ProjectsList = [
   {
@@ -30,12 +31,13 @@ export const ProjectsList = [
   },
   {
     id: 3,
-    title: "NEXTJS BLOG",
-    backgroundImg: cab,
-    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
-    source: "https://github.com/kunwarabhi7/blogNextJS",
-    projectUrl: "https://meabhishekblog.vercel.app/",
+    title: "Let's Meet🧑‍🤝‍🧑",
+    backgroundImg: meet,
+    skill: "MERN STACK ",
+    source: "https://github.com/kunwarabhi7/meet",
+    projectUrl: "https://meet-one-beta.vercel.app/",
   },
+
   {
     id: 4,
     title: "NEXTJS CHATAPP",
@@ -51,6 +53,14 @@ export const ProjectsList = [
     skill: "React.js , Google FIREBASE , CSS ",
     source: "https://github.com/kunwarabhi7/shop",
     projectUrl: "https://shop-devabhi7.vercel.app/",
+  },
+  {
+    id: 13,
+    title: "NEXTJS BLOG",
+    backgroundImg: cab,
+    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
+    source: "https://github.com/kunwarabhi7/blogNextJS",
+    projectUrl: "https://meabhishekblog.vercel.app/",
   },
   {
     id: 6,
@@ -116,7 +126,7 @@ export const ProjectsList = [
     skill: "MERN Stack",
     source: "https://github.com/kunwarabhi7/mern-spotify.git",
     projectUrl: "https://mern-spotify-wwzh.onrender.com/",
-  }
+  },
   // {
   //     title: 'YouTube Clone App',
   //     backgroundImg: yt2,
