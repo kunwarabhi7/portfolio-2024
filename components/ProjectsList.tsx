@@ -11,6 +11,7 @@ import uber from "../app/public/assets/uber.png";
 import Todo from "../app/public/assets/Todo.png";
 import Spotify from "../app/public/assets/spotify.png";
 import meet from "../app/public/assets/meet.png";
+import mernChat from "../app/public/assets/mernchat.png";
 
 export const ProjectsList = [
   {
@@ -37,14 +38,13 @@ export const ProjectsList = [
     source: "https://github.com/kunwarabhi7/meet",
     projectUrl: "https://meet-one-beta.vercel.app/",
   },
-
   {
     id: 4,
-    title: "NEXTJS CHATAPP",
-    backgroundImg: chat,
-    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
-    source: "https://github.com/kunwarabhi7/chatAppNextJS",
-    projectUrl: "http://abhimessage.vercel.app/",
+    title: "MERN CHATAPP",
+    backgroundImg: mernChat,
+    skill: "MERN STACK ",
+    source: "https://github.com/kunwarabhi7/mern-chat-app",
+    projectUrl: "https://abhichatkaro.vercel.app/",
   },
   {
     id: 5,
@@ -55,21 +55,14 @@ export const ProjectsList = [
     projectUrl: "https://shop-devabhi7.vercel.app/",
   },
   {
-    id: 13,
-    title: "NEXTJS BLOG",
-    backgroundImg: cab,
-    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
-    source: "https://github.com/kunwarabhi7/blogNextJS",
-    projectUrl: "https://meabhishekblog.vercel.app/",
-  },
-  {
     id: 6,
-    title: "Random Quote Generator",
-    backgroundImg: quote,
-    skill: "HTML,CSS,JavaScript",
-    source: "https://github.com/kunwarabhi7/quoteGenerator",
-    projectUrl: "https://abhiquotegenerator.vercel.app/",
+    title: "NEXTJS CHATAPP",
+    backgroundImg: chat,
+    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
+    source: "https://github.com/kunwarabhi7/chatAppNextJS",
+    projectUrl: "http://abhimessage.vercel.app/",
   },
+
   {
     id: 7,
     title: "Video Search App",
@@ -120,12 +113,28 @@ export const ProjectsList = [
     projectUrl: "https://abhitodo.vercel.app/",
   },
   {
-    id: 1,
+    id: 13,
+    title: "NEXTJS BLOG",
+    backgroundImg: cab,
+    skill: "NEXTJS , Google FIREBASE,TailwindCSS ",
+    source: "https://github.com/kunwarabhi7/blogNextJS",
+    projectUrl: "https://meabhishekblog.vercel.app/",
+  },
+  {
+    id: 14,
     title: "Mern Spotify App",
     backgroundImg: image,
     skill: "MERN Stack",
     source: "https://github.com/kunwarabhi7/mern-spotify.git",
     projectUrl: "https://mern-spotify-wwzh.onrender.com/",
+  },
+  {
+    id: 15,
+    title: "Random Quote Generator",
+    backgroundImg: quote,
+    skill: "HTML,CSS,JavaScript",
+    source: "https://github.com/kunwarabhi7/quoteGenerator",
+    projectUrl: "https://abhiquotegenerator.vercel.app/",
   },
   // {
   //     title: 'YouTube Clone App',
