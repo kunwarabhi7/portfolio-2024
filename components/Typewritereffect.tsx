@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 const Typewritereffect = () => {
   const String = [
     "Learner",
-    "React Developer",
-    "NextJS Developer",
+    "Full Stack Developer",
+    "Backend Developer",
     "Frontend Developer",
   ];
   return (
